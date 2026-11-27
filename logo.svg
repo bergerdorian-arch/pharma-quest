@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-30 -20 300 290">
+<defs>
+ <linearGradient id="lgGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe28a"/><stop offset=".5" stop-color="#f2b33d"/><stop offset="1" stop-color="#b8741a"/></linearGradient>
+ <linearGradient id="lgShield" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a1a3e"/><stop offset="1" stop-color="#25081a"/></linearGradient>
+ <radialGradient id="lgRBC" cx=".4" cy=".35" r=".7"><stop offset="0" stop-color="#ff6b6b"/><stop offset=".7" stop-color="#d42a3a"/><stop offset="1" stop-color="#8e1424"/></radialGradient>
+ <radialGradient id="lgIn" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#a81b2c"/><stop offset="1" stop-color="#d63241" stop-opacity="0"/></radialGradient>
+ <radialGradient id="lgGlow" cx=".5" cy=".42" r=".5"><stop offset="0" stop-color="#ff7aa2" stop-opacity=".55"/><stop offset="1" stop-color="#ff7aa2" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- gélules croisées derrière le blason -->
+<g transform="rotate(-48 120 132)"><rect x="102" y="-34" width="36" height="332" rx="18" fill="#fff" stroke="#1b0a12" stroke-width="6"/><path d="M102 132V-16a18 18 0 0 1 36 0v148z" fill="#e0334d" stroke="#1b0a12" stroke-width="6"/><rect x="110" y="-14" width="8" height="110" rx="4" fill="#fff" opacity=".45"/></g>
+<g transform="rotate(48 120 132)"><rect x="102" y="-34" width="36" height="332" rx="18" fill="#fff" stroke="#1b0a12" stroke-width="6"/><path d="M102 132V-16a18 18 0 0 1 36 0v148z" fill="#2fbf71" stroke="#1b0a12" stroke-width="6"/><rect x="110" y="-14" width="8" height="110" rx="4" fill="#fff" opacity=".45"/></g>
+<!-- blason -->
+<path d="M120 28l78 26v62c0 62-40 104-78 120C82 220 42 178 42 116V54z" fill="url(#lgGold)" stroke="#1b0a12" stroke-width="7" stroke-linejoin="round"/>
+<path d="M120 44l64 21v52c0 52-33 88-64 102-31-14-64-50-64-102V65z" fill="url(#lgShield)"/>
+<ellipse cx="120" cy="124" rx="62" ry="64" fill="url(#lgGlow)"/>
+<!-- croix de pharmacie -->
+<path d="M112 54h16v12h12v16h-12v12h-16V82h-12V66h12z" fill="#2fbf71" stroke="#0c3a20" stroke-width="3"/>
+<!-- Hémo -->
+<g transform="translate(70 92) scale(.5)">
+ <ellipse cx="100" cy="196" rx="56" ry="10" fill="#000" opacity=".35"/>
+ <ellipse cx="100" cy="122" rx="72" ry="62" fill="url(#lgRBC)" stroke="#5a0b18" stroke-width="5"/>
+ <ellipse cx="100" cy="130" rx="40" ry="28" fill="url(#lgIn)"/>
+ <rect x="40" y="62" width="120" height="16" rx="8" fill="#2fbf71" stroke="#0c3a20" stroke-width="3"/>
+ <path d="M94 56h12v8h8v12h-8v8H94v-8h-8V64h8z" fill="#fff"/>
+ <circle cx="80" cy="114" r="14" fill="#fff"/><circle cx="120" cy="114" r="14" fill="#fff"/>
+ <circle cx="84" cy="116" r="7" fill="#1b0a12"/><circle cx="124" cy="116" r="7" fill="#1b0a12"/>
+ <circle cx="87" cy="112" r="2.5" fill="#fff"/><circle cx="127" cy="112" r="2.5" fill="#fff"/>
+ <path d="M70 104l18 4M130 104l-18 4" stroke="#1b0a12" stroke-width="5" stroke-linecap="round"/>
+ <path d="M84 144q16 14 32 0" stroke="#5a0b18" stroke-width="5" fill="#5a0b18" stroke-linecap="round"/>
+</g>
+<!-- étoiles -->
+<path d="M54 40l4 9 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1z" fill="#ffe28a" stroke="#1b0a12" stroke-width="2.5"/>
+<path d="M186 40l4 9 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1z" fill="#ffe28a" stroke="#1b0a12" stroke-width="2.5"/>
+</svg>
